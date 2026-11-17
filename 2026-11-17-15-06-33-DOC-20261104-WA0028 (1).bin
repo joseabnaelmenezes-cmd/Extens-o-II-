@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Autocuidado na Adolescência</title>
+<style>
+:root{--bg:#fff7ea;--card:#fff;--text:#14214f;--muted:#4a5580;--brand:#203fe8;--accent:#ffa62c;--yel:#ffd83b;--pink:#fb617d;--line:#f0d9b0;color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0f1530;--card:#1a2250;--text:#eef1ff;--muted:#b6bfe6;--brand:#9bb0ff;--line:#2e3a78;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#0f1530;--card:#1a2250;--text:#eef1ff;--muted:#b6bfe6;--brand:#9bb0ff;--line:#2e3a78;color-scheme:dark}
+html{scroll-padding-top:env(safe-area-inset-top,0px);scroll-behavior:smooth}
+*,*:before,*:after{box-sizing:inherit}
+body{margin:0;background:var(--bg);color:var(--text);font:17px/1.55 system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif;padding-bottom:84px}
+.wrap{max-width:720px;margin:0 auto;padding:0 16px}
+header{background:#14214f;color:#fff;padding:28px 0 32px;border-bottom:6px solid var(--accent)}
+header h1{margin:0 0 8px;font-size:2rem;line-height:1.1;letter-spacing:-.5px}
+header h1 span{color:var(--yel)}
+header p{margin:0;color:#dfe5ff}
+.notice{background:var(--card);border:2px solid var(--accent);border-radius:16px;padding:14px 16px;margin:20px 0}
+.notice h2{margin:0 0 6px;font-size:1.05rem}
+.notice ul{margin:6px 0 0;padding-left:20px}
+.notice li{margin:4px 0}
+h2.sec{font-size:1.4rem;margin:28px 0 10px}
+.intro{background:var(--card);border-radius:16px;padding:16px;border:1px solid var(--line)}
+.intro p{margin:0 0 10px}.intro p:last-child{margin:0}
+details{background:var(--card);border:1px solid var(--line);border-radius:16px;margin:12px 0;overflow:hidden}
+summary{list-style:none;cursor:pointer;padding:16px;display:flex;gap:12px;align-items:center;font-weight:700;font-size:1.1rem}
+summary::-webkit-details-marker{display:none}
+summary .n{flex:none;width:38px;height:38px;border-radius:50%;display:grid;place-items:center;background:var(--yel);color:#14214f;font-weight:800}
+details:nth-of-type(2) .n{background:var(--accent)}details:nth-of-type(3) .n{background:#5ee0c4}details:nth-of-type(4) .n{background:var(--pink)}details:nth-of-type(5) .n{background:#9bb0ff}
+summary small{display:block;font-weight:400;color:var(--muted);font-size:.9rem}
+summary:after{content:"+";margin-left:auto;font-size:1.6rem;color:var(--brand)}
+details[open] summary:after{content:"−"}
+.body{padding:0 16px 16px}
+.body h3{font-size:1rem;margin:16px 0 6px;color:var(--brand)}
+.body p{margin:6px 0}
+.body ul{margin:6px 0;padding-left:20px}.body li{margin:5px 0}
+.tip{background:rgba(255,166,44,.18);border-left:5px solid var(--accent);border-radius:10px;padding:10px 12px;margin:12px 0}
+.help{background:#203fe8;color:#fff;border-radius:18px;padding:18px;margin:28px 0}
+.help h2{margin:0 0 8px}.help a{color:#ffd83b;font-weight:700}
+.help ul{padding-left:20px;margin:8px 0}
+.about{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:16px;font-size:.95rem}
+.about h3{margin:14px 0 6px;font-size:1rem}.about ul{padding-left:20px;margin:6px 0}.about li{margin:4px 0}
+.bar{position:fixed;left:0;right:0;bottom:0;z-index:10;background:#203fe8;color:#fff;padding:10px 16px calc(10px + env(safe-area-inset-bottom,0px));text-align:center;font-weight:700;box-shadow:0 -2px 12px rgba(0,0,0,.25)}
+.bar a{color:#ffd83b;text-decoration:none}
+footer{padding:18px 0 8px;color:var(--muted);font-size:.85rem;text-align:center}
+</style>
+</head>
+<body>
+<header><div class="wrap">
+<h1>Autocuidado na <span>adolescência</span></h1>
+<p>Escolhas que promovem saúde e qualidade de vida</p>
+</div></header>
+
+<main class="wrap">
+<section class="notice" aria-label="Observações importantes">
+<h2>⚠️ Antes de começar</h2>
+<ul>
+<li>Este site é <b>informativo e educativo</b>. Ele não substitui consulta, diagnóstico ou acompanhamento de profissionais de saúde.</li>
+<li>Se algo estiver te preocupando, converse com alguém de confiança ou procure uma unidade de saúde.</li>
+<li>Aqui você <b>não precisa se identificar</b>: o site não pede nome, e-mail nem nenhum dado pessoal.</li>
+</ul>
+</section>
+
+<h2 class="sec">O que é autocuidado?</h2>
+<div class="intro">
+<p>Autocuidado são as <b>escolhas conscientes</b> que você faz no dia a dia para cuidar do corpo e da mente: o que você come, como dorme, se você se mexe, como lida com o que sente.</p>
+<p>Não é só aparência ou estética. Cuidar das emoções e pedir ajuda quando precisa também faz parte. Toque em cada tema abaixo para saber mais.</p>
+</div>
+
+<h2 class="sec">Cinco temas para o seu dia a dia</h2>
+
+<details>
+<summary><span class="n">1</span><span>Alimentação e água<small>O que colocar no prato</small></span></summary>
+<div class="body">
+<p>Uma alimentação equilibrada reúne, ao longo do dia, vários grupos de nutrientes. Cada um tem uma função:</p>
+<ul>
+<li><b>Carboidratos:</b> principal fonte de energia (arroz, mandioca, batata, pão, macarrão; as versões integrais trazem mais fibras).</li>
+<li><b>Proteínas:</b> ajudam a construir e recuperar músculos e tecidos (feijão, ovos, carnes, peixes, leite e derivados).</li>
+<li><b>Gorduras:</b> também dão energia e ajudam o corpo a usar algumas vitaminas. Prefira as de azeite, castanhas e peixes, e modere as frituras.</li>
+<li><b>Fibras:</b> ajudam o intestino e dão saciedade (frutas, verduras, legumes, feijões e cereais integrais).</li>
+<li><b>Vitaminas e minerais:</b> ajudam na defesa do corpo, nos ossos e na energia (frutas, legumes e verduras de várias cores, além de leite e feijões, que trazem cálcio e ferro).</li>
+</ul>
+<div class="tip"><b>Regra de ouro do Guia Alimentar brasileiro:</b> prefira alimentos <i>in natura</i> ou minimamente processados (frutas, legumes, arroz, feijão, ovos, leite) e comida feita na hora a alimentos ultraprocessados (salgadinhos, refrigerantes, biscoitos recheados, macarrão instantâneo, embutidos).</div>
+<h3>E a água?</h3>
+<p>Beba água ao longo do dia, sem esperar sentir muita sede. Leve uma garrafinha para a escola e prefira água a refrigerantes, sucos de caixinha e energéticos.</p>
+<h3>Pequenos passos</h3>
+<ul><li>Não pule o café da manhã.</li><li>Coloque uma fruta ou um legume na maioria das refeições.</li><li>Coma sem pressa, longe das telas, quando puder.</li></ul>
+</div>
+</details>
+
+<details>
+<summary><span class="n">2</span><span>Atividade física<small>Mexer o corpo faz bem para a mente também</small></span></summary>
+<div class="body">
+<p>Movimentar-se melhora a condição do coração e dos músculos, fortalece os ossos, ajuda no humor e na concentração e contribui para um peso saudável.</p>
+<h3>Quanto é o mínimo? (recomendação da OMS, 5 a 17 anos)</h3>
+<ul>
+<li>Em média, <b>60 minutos por dia</b> de atividade moderada a intensa, a maior parte aeróbica (caminhar rápido, pedalar, dançar, jogar bola, nadar).</li>
+<li>Em pelo menos <b>3 dias por semana</b>, incluir atividades intensas e de fortalecimento dos músculos e dos ossos (correr, pular, brincadeiras de força, treino com o peso do corpo).</li>
+<li><b>Qualquer movimento é melhor do que nenhum.</b> Quem está parado deve começar aos poucos e aumentar com o tempo.</li>
+<li>Reduza o tempo sentado, principalmente em telas de lazer.</li>
+</ul>
+<div class="tip">Não precisa ser academia. O melhor exercício é aquele que você gosta e consegue repetir: esporte na escola, caminhada com amigos, dança, bicicleta.</div>
+<h3>Cuidado com o excesso</h3>
+<p>Mais nem sempre é melhor. Treinar demais, sem descanso e sem comer o suficiente, pode causar:</p>
+<ul>
+<li>cansaço constante e queda no rendimento;</li>
+<li>dores que não passam e lesões;</li>
+<li>alterações no sono, no humor e na irritabilidade.</li>
+</ul>
+<p>Respeite o descanso, hidrate-se, alimente-se bem e procure orientação de um profissional de educação física ou de saúde. <b>Suplementos e “bombas” para ganhar massa só com orientação profissional</b>; na dúvida, pergunte a um farmacêutico.</p>
+</div>
+</details>
+
+<details>
+<summary><span class="n">3</span><span>Sono<small>Dormir bem recarrega o corpo e a cabeça</small></span></summary>
+<div class="body">
+<p>Adolescentes precisam de <b>8 a 10 horas de sono por noite</b> (recomendação da Academia Americana de Medicina do Sono e da National Sleep Foundation, adotada por sociedades brasileiras). Nessa fase, o relógio do corpo tende a atrasar: dá sono mais tarde e fica mais difícil acordar cedo. Por isso a rotina importa.</p>
+<h3>O que ajuda a dormir melhor</h3>
+<ul>
+<li>Dormir e acordar em <b>horários parecidos</b>, inclusive no fim de semana.</li>
+<li>Deixar o <b>celular e outras telas fora do quarto</b> e desligá-los antes de deitar.</li>
+<li>Quarto escuro, silencioso e com luz fraca nas últimas horas do dia.</li>
+<li>Evitar cafeína (refrigerante, energético, café, chocolate) no fim da tarde e à noite. Alguns especialistas indicam parar por volta das 14h.</li>
+<li>Se cochilar, que seja curto (até cerca de 1 hora) e não muito tarde.</li>
+<li>Usar a cama para dormir, e não para séries e jogos.</li>
+<li>Fazer atividade física durante o dia e relaxar antes de deitar.</li>
+</ul>
+<h3>O que pode piorar o sono</h3>
+<ul>
+<li>Telas na cama, redes sociais e jogos até tarde.</li>
+<li>Cafeína e energéticos à noite.</li>
+<li>Horários muito diferentes entre dias de aula e fim de semana.</li>
+<li>Luz forte, barulho e preocupações levadas para a cama.</li>
+<li>Álcool e cigarro (inclusive eletrônico), que também prejudicam a qualidade do sono.</li>
+</ul>
+<div class="tip">Dormir pouco por muito tempo atrapalha a atenção, a memória, o humor e a saúde. Se você dorme mal por semanas, converse com um profissional de saúde.</div>
+</div>
+</details>
+
+<details>
+<summary><span class="n">4</span><span>Saúde mental e emocional<small>Sentir é normal, pedir ajuda também</small></span></summary>
+<div class="body">
+<p>Adolescer traz mudanças no corpo, nas amizades, nos estudos e nas cobranças. Sentir ansiedade, tristeza, raiva ou insegurança de vez em quando faz parte. Segundo a OPAS, metade das condições de saúde mental começa por volta dos 14 anos, e muitas não são percebidas nem tratadas. Falar sobre isso ajuda.</p>
+<h3>O que ajuda no dia a dia</h3>
+<ul>
+<li>Reconhecer e dar nome ao que você sente.</li>
+<li>Conversar com alguém de confiança: família, amigos, professores, coordenação.</li>
+<li>Manter sono, alimentação e movimento em dia.</li>
+<li>Reservar momentos de descanso e lazer <b>sem telas</b>.</li>
+<li>Cultivar relações saudáveis e se afastar de situações de humilhação ou <i>bullying</i>, pedindo apoio quando isso acontecer.</li>
+<li>Organizar o estudo em pequenas partes para lidar melhor com o estresse.</li>
+</ul>
+<h3>Sinais de que vale buscar ajuda</h3>
+<ul>
+<li>Tristeza, irritação ou preocupação que duram semanas.</li>
+<li>Perda de interesse no que antes era gostoso.</li>
+<li>Isolamento, queda no rendimento, mudanças no sono ou no apetite.</li>
+<li>Sensação de que não dá conta sozinho(a).</li>
+</ul>
+<div class="tip"><b>Pedir ajuda é um ato de coragem, não de fraqueza.</b> Você pode procurar a UBS do seu bairro, um CAPS ou um psicólogo, ou ligar para o CVV (veja o quadro “Quer conversar com alguém?”).</div>
+</div>
+</details>
+
+<details>
+<summary><span class="n">5</span><span>Escolhas conscientes<small>Seu corpo, suas decisões</small></span></summary>
+<div class="body">
+<p>Na adolescência é natural querer experimentar e fazer parte do grupo. Fazer escolhas conscientes é parar um instante e pensar: <i>isso é bom para mim agora e depois?</i> Todo mundo pode passar por essas situações, e há jeitos simples de se cuidar.</p>
+<h3>Em festas e encontros</h3>
+<ul>
+<li>Coma antes, beba água e vá com amigos de confiança.</li>
+<li>Combine antes como vai voltar para casa e avise alguém da sua família.</li>
+<li>Cuide da sua bebida e não aceite nada de quem você não conhece.</li>
+<li>Álcool, cigarro (inclusive vape) e outras drogas afetam o cérebro, que ainda está em desenvolvimento, e podem causar dependência. Abrir mão deles é uma escolha de cuidado.</li>
+</ul>
+<h3>Com remédios, suplementos e energéticos</h3>
+<ul>
+<li>Remédio não é bala: use apenas com orientação de médico ou farmacêutico, e não tome o que amigos recomendam.</li>
+<li>Evite energéticos, “pré-treinos” e produtos para emagrecer ou ganhar músculo sem orientação.</li>
+</ul>
+<h3>Com as telas e as redes</h3>
+<ul>
+<li>Defina horários sem celular, principalmente à noite.</li>
+<li>Lembre que as redes mostram só uma parte da vida das pessoas; compare-se menos.</li>
+</ul>
+<div class="tip"><b>Saber dizer “não” também é autocuidado.</b> Experimente: “Hoje não, valeu!”, “Não curto isso”, “Vou ficar de boa”. Quem é seu amigo respeita.</div>
+</div>
+</details>
+
+<section class="help" id="conversar">
+<h2>💬 Quer conversar com alguém?</h2>
+<p>Você não precisa passar por isso sozinho(a).</p>
+<ul>
+<li><b>CVV – 188:</b> apoio emocional gratuito e sigiloso, 24 horas. Ligue para <a href="tel:188">188</a> ou use o chat em <a href="https://cvv.org.br/chat/" target="_blank" rel="noopener">cvv.org.br/chat</a>.</li>
+<li><b>UBS ou CAPS do seu bairro:</b> atendimento gratuito pelo SUS.</li>
+<li><b>Emergência (risco imediato):</b> ligue <a href="tel:192">192 (SAMU)</a>.</li>
+</ul>
+<p>Na escola, você também pode procurar um professor ou a coordenação.</p>
+</section>
+
+<h2 class="sec">Sobre o projeto</h2>
+<section class="about">
+<p>Projeto de extensão do curso de <b>Farmácia</b> da <b>Faculdade Maurício de Nassau</b>, na disciplina Atividades Práticas Interdisciplinares de Extensão II, desenvolvido em Aracaju (SE).</p>
+<h3>Discentes responsáveis</h3>
+<ul>
+<li>Gabriella Santos Morais</li><li>Gabrielly Andrade Santos Silva</li><li>José Abnael Sobral de Menezes</li><li>Laiza Victoria dos Santos Rezende</li><li>Lana Eduarda Andrade da Costa</li><li>Maria Gabriele Xavier dos Santos</li>
+</ul>
+<h3>Fontes consultadas</h3>
+<ul>
+<li>OMS. Diretrizes da OMS para atividade física e comportamento sedentário, 2020.</li>
+<li>BRASIL. Ministério da Saúde. Guia Alimentar para a População Brasileira, 2. ed., 2014.</li>
+<li>Academia Americana de Medicina do Sono (AASM) e National Sleep Foundation: duração recomendada do sono; Sociedade Brasileira de Pediatria e Associação Brasileira do Sono: higiene do sono.</li>
+<li>OPAS/OMS: saúde mental dos adolescentes.</li>
+<li>CVV – Centro de Valorização da Vida: cvv.org.br.</li>
+<li>ANTUNES, 2023; MELO et al., 2022; SANTOS, 2018; SILVA et al., 2021.</li>
+</ul>
+</section>
+</main>
+
+<footer class="wrap">Conteúdo educativo. Não substitui orientação profissional.</footer>
+<div class="bar">Quer conversar com alguém? <a href="tel:188">Ligue CVV 188</a></div>
+</body>
+</html>
